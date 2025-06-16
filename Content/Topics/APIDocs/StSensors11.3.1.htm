@@ -151,8 +151,8 @@
 		});/*]]>*/</script>
                                     <div class="rr-article-body">
                                         <div>
-                                            <div data-sticky-container="" id="1lZdBEDj306gv5Xu9bAKfw">
-                                                <div class="sticky sticky-menu" style="width:100%" data-sticky="" data-top-anchor="1lZdBEDj306gv5Xu9bAKfw:top" data-bottom-anchor="contentBody:bottom" data-sticky-on="small" data-scroll-container-on="small">
+                                            <div data-sticky-container="" id="R57Ts2cC_ESn1qtBz6oM-w">
+                                                <div class="sticky sticky-menu" style="width:100%" data-sticky="" data-top-anchor="R57Ts2cC_ESn1qtBz6oM-w:top" data-bottom-anchor="contentBody:bottom" data-sticky-on="small" data-scroll-container-on="small">
                                                     <ul class="nocontent menu _Skins_SideMenuFixed03 mc-component" data-mc-is-context-sensitive="True" data-mc-linked-toc="Data/Tocs/HTMLtocs__PortfolioSiteTOC.js" data-mc-side-menu="True" data-mc-max-depth="5" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
                                                     </ul>
                                                 </div>
@@ -202,7 +202,7 @@
                                                     <h2 class="border"><span class="get">GET</span> all sensors that activated (from master)</h2>
                                                     <p>This endpoint gets a list of all sensors that activated in your environment (from the master).</p>
                                                     <h4 class="request">Request Syntax</h4>
-                                                    <div class="ApiRequestSyntax">GET /api/sensors</div>
+                                                    <div class="ApiRequestSyntax">GET /acme-api/sensors</div>
                                                     <h3 class="Api">Query Parameters</h3>
                                                     <table style="mc-table-style: url('../../Resources/TableStyles/BasicAlternateLightBlueRows.css');" class="TableStyle-BasicAlternateLightBlueRows" cellspacing="0">
                                                         <thead>
@@ -230,7 +230,7 @@
                                                                     <p>Add this parameter if you want to filter the response to records within a start and end time frame. If you add a <b>startTime</b>, the best practice is to add an <b>endTime</b>.</p>
                                                                     <p>Here is an example:</p>
                                                                     <p>
-                                                                        <div class="ApiRequestSyntax">api/sensors?startTime=2025-06-01T00:00:00.0000000Z</div>
+                                                                        <div class="ApiRequestSyntax">acme-api/sensors?startTime=2025-06-01T00:00:00.0000000Z</div>
                                                                     </p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyE-Column1-Body1">
@@ -249,7 +249,7 @@
 						the best practice is to add a <b>startTime</b>.</p>
                                                                     <p>Here is an example:</p>
                                                                     <p>
-                                                                        <div class="ApiRequestSyntax">api/sensors?endTime=2025-06-01T00:00:00.0000000Z</div>
+                                                                        <div class="ApiRequestSyntax">acme-api/sensors?endTime=2025-06-01T00:00:00.0000000Z</div>
                                                                     </p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyE-Column1-Body2">
@@ -269,7 +269,7 @@
                                                                     <p>If you enter a  string that is part of multiple tags, the response will include all sensors with a tag that includes that string.</p>
                                                                     <p>Here is an example:</p>
                                                                     <p>
-                                                                        <div class="ApiRequestSyntax">api/sensors?tag={tagName}</div>
+                                                                        <div class="ApiRequestSyntax">acme-api/sensors?tag={tagName}</div>
                                                                     </p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyE-Column1-Body1">
@@ -287,7 +287,7 @@
                                                                     <p>Use True or False to specify whether the response will include the  description of the sensor itself.</p>
                                                                     <p>Here is an example:</p>
                                                                     <p>
-                                                                        <div class="ApiRequestSyntax">api/sensors?includeDescriptions={bool}</div>
+                                                                        <div class="ApiRequestSyntax">acme-api/sensors?includeDescriptions={bool}</div>
                                                                     </p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyE-Column1-Body2">
@@ -305,7 +305,7 @@
                                                                     <p>Use True or False to specify whether to include sensor payloads (if the sensor supports them). Payloads are used to retrieve specific information about a sensor to supplement the sensor's result in the sensor's details and actions. A Payload is a data set containing rows.</p>
                                                                     <p>Here is an example:</p>
                                                                     <p>
-                                                                        <div class="ApiRequestSyntax">api/sensors?includePayloads={bool}</div>
+                                                                        <div class="ApiRequestSyntax">acme-api/sensors?includePayloads={bool}</div>
                                                                     </p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyE-Column1-Body1">
@@ -325,7 +325,7 @@
                                                                     <p>If you enter a <b>sensorId</b> and a <b>sensorName</b>,  Acme applies <b>AND</b> logic to return only the sensor that has both the specified ID and the specified name.</p>
                                                                     <p>Here is an example:</p>
                                                                     <p>
-                                                                        <div class="ApiRequestSyntax">api/sensors?sensorId={sensorId}</div>
+                                                                        <div class="ApiRequestSyntax">acme-api/sensors?sensorId={sensorId}</div>
                                                                     </p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyE-Column1-Body2">
@@ -344,7 +344,7 @@
                                                                     <p>If you enter a  string that is part of multiple sensor names, the response will include all sensor names that include that string. For example, if you use <b>status</b> as the <b>sensorName</b>, the response will include sensors named <b>Device Manager Status</b> and <b>Encryption Status</b>.</p>
                                                                     <p>Here is an example:</p>
                                                                     <p>
-                                                                        <div class="ApiRequestSyntax">api/sensors?sensorName={sensorName}</div>
+                                                                        <div class="ApiRequestSyntax">acme-api/sensors?sensorName={sensorName}</div>
                                                                     </p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyE-Column1-Body1">
@@ -362,7 +362,7 @@
                                                                     <p>Add this parameter if you want to filter the response to return sensors from only one <b>SensorCategory</b>. See the Response Attributes for more details.</p>
                                                                     <p>Here is an example:</p>
                                                                     <p>
-                                                                        <div class="ApiRequestSyntax">api/sensors?SensorCategory={SensorCategory}</div>
+                                                                        <div class="ApiRequestSyntax">acme-api/sensors?SensorCategory={SensorCategory}</div>
                                                                     </p>
                                                                     <p>You must specify the exact category name to get results. Partial matches are not supported for this parameter. You can see the categories for sensors in Configure (under Sensor Configuration &gt; <a href="https://documentation.lakesidesoftware.com/en/Content/Configure/Cloud/SensorConfigurationMmgt01.htm" target="_blank">Management</a>).</p>
                                                                 </td>
@@ -381,7 +381,7 @@
                                                                     <p>Add this parameter if you want to filter the response to return sensors that have a specific <b>Visibility</b> value. See the Response Attributes for more details.</p>
                                                                     <p>Here is an example:</p>
                                                                     <p>
-                                                                        <div class="ApiRequestSyntax">api/sensors?Visibility={Visibility}</div>
+                                                                        <div class="ApiRequestSyntax">acme-api/sensors?Visibility={Visibility}</div>
                                                                     </p>
                                                                     <p>You can specify one or more of the following, and your response will return sensors that include one or more of the visibilities that you specify:</p>
                                                                     <ul>
@@ -538,7 +538,7 @@
                                                     <h2 class="border"><span class="get">GET</span> all sensors that activated for a system (from master)</h2>
                                                     <p>This endpoint gets a list of all sensors that activated for the specified system (from the master).</p>
                                                     <h4 class="request">Request Syntax</h4>
-                                                    <div class="ApiRequestSyntax">GET /api/sensors/{systemId}</div>
+                                                    <div class="ApiRequestSyntax">GET /acme-api/sensors/{systemId}</div>
                                                     <h3 class="Api">Path Parameters</h3>
                                                     <table style="mc-table-style: url('../../Resources/TableStyles/BasicAlternateLightBlueRows.css');" class="TableStyle-BasicAlternateLightBlueRows" cellspacing="0">
                                                         <thead>
@@ -601,7 +601,7 @@
                                                                     <p>Add this parameter if you want to filter the response to records within a start and end time frame. If you add a <b>startTime</b>, the best practice is to add an <b>endTime</b>.</p>
                                                                     <p>Here is an example:</p>
                                                                     <p>
-                                                                        <div class="ApiRequestSyntax">api/sensors/{systemId}?startTime=2025-06-01T00:00:00.0000000Z</div>
+                                                                        <div class="ApiRequestSyntax">acme-api/sensors/{systemId}?startTime=2025-06-01T00:00:00.0000000Z</div>
                                                                     </p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyE-Column1-Body1">
@@ -620,7 +620,7 @@
 						the best practice is to add a <b>startTime</b>.</p>
                                                                     <p>Here is an example:</p>
                                                                     <p>
-                                                                        <div class="ApiRequestSyntax">api/sensors{systemId}?endTime=2025-06-01T00:00:00.0000000Z</div>
+                                                                        <div class="ApiRequestSyntax">acme-api/sensors{systemId}?endTime=2025-06-01T00:00:00.0000000Z</div>
                                                                     </p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyE-Column1-Body2">
@@ -640,7 +640,7 @@
                                                                     <p>If you enter a  string that is part of multiple tags, the response will include all sensors with a tag that includes that string.</p>
                                                                     <p>Here is an example:</p>
                                                                     <p>
-                                                                        <div class="ApiRequestSyntax">api/sensors/{systemId}?tag={tagName}</div>
+                                                                        <div class="ApiRequestSyntax">acme-api/sensors/{systemId}?tag={tagName}</div>
                                                                     </p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyE-Column1-Body1">
@@ -658,7 +658,7 @@
                                                                     <p>Use True or False to specify whether the response will include the  description of the sensor itself.</p>
                                                                     <p>Here is an example:</p>
                                                                     <p>
-                                                                        <div class="ApiRequestSyntax">api/sensors/{systemId}?includeDescriptions={bool}</div>
+                                                                        <div class="ApiRequestSyntax">acme-api/sensors/{systemId}?includeDescriptions={bool}</div>
                                                                     </p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyE-Column1-Body2">
@@ -676,7 +676,7 @@
                                                                     <p>Use True or False to specify whether to include sensor payloads (if the sensor supports them). Payloads are used to retrieve specific information about a sensor to supplement the sensor's result in the sensor's details and actions. A Payload is a data set containing rows.</p>
                                                                     <p>Here is an example:</p>
                                                                     <p>
-                                                                        <div class="ApiRequestSyntax">api/sensors/{systemId}?includePayloads={bool}</div>
+                                                                        <div class="ApiRequestSyntax">acme-api/sensors/{systemId}?includePayloads={bool}</div>
                                                                     </p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyE-Column1-Body1">
@@ -696,7 +696,7 @@
                                                                     <p>If you enter a <b>sensorId</b> and a <b>sensorName</b>,  Acme applies <b>AND</b> logic to return only the sensor that has both the specified ID and the specified name.</p>
                                                                     <p>Here is an example:</p>
                                                                     <p>
-                                                                        <div class="ApiRequestSyntax">api/sensors/{systemId}?sensorId={sensorId}</div>
+                                                                        <div class="ApiRequestSyntax">acme-api/sensors/{systemId}?sensorId={sensorId}</div>
                                                                     </p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyE-Column1-Body2">
@@ -715,7 +715,7 @@
                                                                     <p>If you enter a  string that is part of multiple sensor names, the response will include all sensor names that include that string. For example, if you use <b>status</b> as the <b>sensorName</b>, the response will include sensors named <b>Device Manager Status</b> and <b>Encryption Status</b>.</p>
                                                                     <p>Here is an example:</p>
                                                                     <p>
-                                                                        <div class="ApiRequestSyntax">api/sensors/{systemId}?sensorName={sensorName}</div>
+                                                                        <div class="ApiRequestSyntax">acme-api/sensors/{systemId}?sensorName={sensorName}</div>
                                                                     </p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyE-Column1-Body1">
@@ -733,7 +733,7 @@
                                                                     <p>Add this parameter if you want to filter the response to return sensors from only one <b>SensorCategory</b>. See the Response Attributes for more details.</p>
                                                                     <p>Here is an example:</p>
                                                                     <p>
-                                                                        <div class="ApiRequestSyntax">api/sensors/{systemId}?SensorCategory={SensorCategory}</div>
+                                                                        <div class="ApiRequestSyntax">acme-api/sensors/{systemId}?SensorCategory={SensorCategory}</div>
                                                                     </p>
                                                                     <p>You must specify the exact category name to get results. Partial matches are not supported for this parameter. You can see the categories for sensors in Configure (under Sensor Configuration &gt; <a href="https://documentation.lakesidesoftware.com/en/Content/Configure/Cloud/SensorConfigurationMmgt01.htm" target="_blank">Management</a>).</p>
                                                                 </td>
@@ -752,7 +752,7 @@
                                                                     <p>Add this parameter if you want to filter the response to return sensors that have a specific <b>Visibility</b> value. See the Response Attributes for more details.</p>
                                                                     <p>Here is an example:</p>
                                                                     <p>
-                                                                        <div class="ApiRequestSyntax">api/sensors/{systemId}?Visibility={Visibility}</div>
+                                                                        <div class="ApiRequestSyntax">acme-api/sensors/{systemId}?Visibility={Visibility}</div>
                                                                     </p>
                                                                     <p>You can specify one or more of the following, and your response will return sensors that include one or more of the visibilities that you specify:</p>
                                                                     <ul>
@@ -901,7 +901,7 @@
                                                     <h2 class="border"><span class="get">GET</span> all sensors that activated for a system (from child)</h2>
                                                     <p>This endpoint gets a list of all sensors that activated for the specified system (from the child).</p>
                                                     <h4 class="request">Request Syntax</h4>
-                                                    <div class="ApiRequestSyntax">GET /api/sensors/child/{systemId}</div>
+                                                    <div class="ApiRequestSyntax">GET /acme-api/sensors/child/{systemId}</div>
                                                     <h3 class="Api">Path Parameters</h3>
                                                     <table style="mc-table-style: url('../../Resources/TableStyles/BasicAlternateLightBlueRows.css');" class="TableStyle-BasicAlternateLightBlueRows" cellspacing="0">
                                                         <thead>
@@ -964,7 +964,7 @@
                                                                     <p>Add this parameter if you want to filter the response to records within a start and end time frame. If you add a <b>startTime</b>, the best practice is to add an <b>endTime</b>.</p>
                                                                     <p>Here is an example:</p>
                                                                     <p>
-                                                                        <div class="ApiRequestSyntax">api/sensors/child/{systemId}?startTime=2025-06-01T00:00:00.0000000Z</div>
+                                                                        <div class="ApiRequestSyntax">acme-api/sensors/child/{systemId}?startTime=2025-06-01T00:00:00.0000000Z</div>
                                                                     </p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyE-Column1-Body1">
@@ -983,7 +983,7 @@
 						the best practice is to add a <b>startTime</b>.</p>
                                                                     <p>Here is an example:</p>
                                                                     <p>
-                                                                        <div class="ApiRequestSyntax">api/sensors/child/{systemId}?endTime=2025-06-01T00:00:00.0000000Z</div>
+                                                                        <div class="ApiRequestSyntax">acme-api/sensors/child/{systemId}?endTime=2025-06-01T00:00:00.0000000Z</div>
                                                                     </p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyE-Column1-Body2">
@@ -1003,7 +1003,7 @@
                                                                     <p>If you enter a  string that is part of multiple tags, the response will include all sensors with a tag that includes that string.</p>
                                                                     <p>Here is an example:</p>
                                                                     <p>
-                                                                        <div class="ApiRequestSyntax">api/sensors/child/{systemId}?tag={tagName}</div>
+                                                                        <div class="ApiRequestSyntax">acme-api/sensors/child/{systemId}?tag={tagName}</div>
                                                                     </p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyE-Column1-Body1">
@@ -1021,7 +1021,7 @@
                                                                     <p>Use True or False to specify whether the response will include the  description of the sensor itself.</p>
                                                                     <p>Here is an example:</p>
                                                                     <p>
-                                                                        <div class="ApiRequestSyntax">api/sensors/child/{systemId}?includeDescriptions={bool}</div>
+                                                                        <div class="ApiRequestSyntax">acme-api/sensors/child/{systemId}?includeDescriptions={bool}</div>
                                                                     </p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyE-Column1-Body2">
@@ -1039,7 +1039,7 @@
                                                                     <p>Use True or False to specify whether to include sensor payloads (if the sensor supports them). Payloads are used to retrieve specific information about a sensor to supplement the sensor's result in the sensor's details and actions. A Payload is a data set containing rows.</p>
                                                                     <p>Here is an example:</p>
                                                                     <p>
-                                                                        <div class="ApiRequestSyntax">api/sensors/child/{systemId}?includePayloads={bool}</div>
+                                                                        <div class="ApiRequestSyntax">acme-api/sensors/child/{systemId}?includePayloads={bool}</div>
                                                                     </p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyE-Column1-Body1">
@@ -1057,7 +1057,7 @@
                                                                     <p>Add this parameter if you want to filter the response to return sensors from only one <b>SensorCategory</b>. See the Response Attributes for more details.</p>
                                                                     <p>Here is an example:</p>
                                                                     <p>
-                                                                        <div class="ApiRequestSyntax">api/sensors/child/{systemId}?SensorCategory={SensorCategory}</div>
+                                                                        <div class="ApiRequestSyntax">acme-api/sensors/child/{systemId}?SensorCategory={SensorCategory}</div>
                                                                     </p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyE-Column1-Body2">
@@ -1075,7 +1075,7 @@
                                                                     <p>Add this parameter if you want to filter the response to return sensors that have a specific <b>Visibility</b> value. See the Response Attributes for more details.</p>
                                                                     <p>Here is an example:</p>
                                                                     <p>
-                                                                        <div class="ApiRequestSyntax">api/sensors/child/{systemId}?Visibility={Visibility}</div>
+                                                                        <div class="ApiRequestSyntax">acme-api/sensors/child/{systemId}?Visibility={Visibility}</div>
                                                                     </p>
                                                                     <p>You can specify one or more of the following, and your response will return sensors that include one or more of the visibilities that you specify:</p>
                                                                     <ul>
@@ -1231,7 +1231,7 @@
                                                     <h2 class="border"><span class="get">GET</span> descriptions of sensors</h2>
                                                     <p>This endpoint gets descriptions and other metadata about your sensors.</p>
                                                     <h4 class="request">Request Syntax</h4>
-                                                    <div class="ApiRequestSyntax">GET /api/sensors/definitions</div>
+                                                    <div class="ApiRequestSyntax">GET /acme-api/sensors/definitions</div>
                                                     <h3 class="Api">Path Parameters</h3>
                                                     <table style="mc-table-style: url('../../Resources/TableStyles/BasicAlternateLightBlueRows.css');" class="TableStyle-BasicAlternateLightBlueRows" cellspacing="0">
                                                         <thead>
@@ -1286,7 +1286,7 @@
                                                                     <p>Add this parameter if you want to filter the response to display the metadata for one specific sensor.</p>
                                                                     <p>Here is an example:</p>
                                                                     <p>
-                                                                        <div class="ApiRequestSyntax">api/sensors/definitions?sensorName={name}</div>
+                                                                        <div class="ApiRequestSyntax">acme-api/sensors/definitions?sensorName={name}</div>
                                                                     </p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyB-Column1-Body1">

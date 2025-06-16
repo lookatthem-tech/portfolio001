@@ -151,8 +151,8 @@
 		});/*]]>*/</script>
                                     <div class="rr-article-body">
                                         <div>
-                                            <div data-sticky-container="" id="-MfcrgGnUkiO7WBDa2wWXw">
-                                                <div class="sticky sticky-menu" style="width:100%" data-sticky="" data-top-anchor="-MfcrgGnUkiO7WBDa2wWXw:top" data-bottom-anchor="contentBody:bottom" data-sticky-on="small" data-scroll-container-on="small">
+                                            <div data-sticky-container="" id="wjyKGMLgBE694xSQDhza0g">
+                                                <div class="sticky sticky-menu" style="width:100%" data-sticky="" data-top-anchor="wjyKGMLgBE694xSQDhza0g:top" data-bottom-anchor="contentBody:bottom" data-sticky-on="small" data-scroll-container-on="small">
                                                     <ul class="nocontent menu _Skins_SideMenuFixed03 mc-component" data-mc-is-context-sensitive="True" data-mc-linked-toc="Data/Tocs/HTMLtocs__PortfolioSiteTOC.js" data-mc-side-menu="True" data-mc-max-depth="5" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
                                                     </ul>
                                                 </div>
@@ -214,7 +214,7 @@
                                                     <p>This endpoint returns all available geolocations, including both default and custom entries that can be assigned to systems based on IP ranges.</p>
                                                     <div class="Note" data-mc-autonum="&lt;span style=&quot;color: #000099;&quot; class=&quot;mcFormatColor&quot;&gt;&lt;b&gt;NOTE: &lt;/b&gt;&lt;/span&gt;"><span class="autonumber"><span><span style="color: #000099;" class="mcFormatColor"><b>NOTE: </b></span></span></span>This will return a large dataset. To improve performance and narrow the results, the best practice is to use query parameters to filter by country, region, or other criteria.</div>
                                                     <h4 class="request">Request Syntax</h4>
-                                                    <div class="ApiRequestSyntax">GET /deployapi/geolocations</div>
+                                                    <div class="ApiRequestSyntax">GET /acme-api/geolocations</div>
                                                     <h3 class="Api">Query Parameters</h3>
                                                     <table style="mc-table-style: url('../../Resources/TableStyles/BasicAlternateLightBlueRows.css');" class="TableStyle-BasicAlternateLightBlueRows" cellspacing="0">
                                                         <thead>
@@ -239,7 +239,7 @@
                                                                     <p>top</p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyE-Column1-Body1">
-                                                                    <p>Add this parameter to specify the maximum number of locations to get. Here is an example:<br /><div class="ApiRequestSyntax">deployapi/geolocations?top=20</div></p>
+                                                                    <p>Add this parameter to specify the maximum number of locations to get. Here is an example:<br /><div class="ApiRequestSyntax">acme-api/geolocations?top=20</div></p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyE-Column1-Body1">
                                                                     <p>string</p>
@@ -253,7 +253,7 @@
                                                                     <p>country</p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyE-Column1-Body2">
-                                                                    <p>Add this parameter to specify the country (by country code) for which you want to return geolocations. Here is an example:<br /><div class="ApiRequestSyntax">deployapi/geolocations?country=US</div></p>
+                                                                    <p>Add this parameter to specify the country (by country code) for which you want to return geolocations. Here is an example:<br /><div class="ApiRequestSyntax">acme-api/geolocations?country=US</div></p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyE-Column1-Body2">
                                                                     <p>string</p>
@@ -267,7 +267,7 @@
                                                                     <p>region</p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyE-Column1-Body1">
-                                                                    <p>Add this parameter to specify the region (by region code) for which you want to return geolocations. For  U.S. locations, the region is the state. Here is an example:<br /><div class="ApiRequestSyntax">deployapi/geolocations?region=MA</div></p>
+                                                                    <p>Add this parameter to specify the region (by region code) for which you want to return geolocations. For  U.S. locations, the region is the state. Here is an example:<br /><div class="ApiRequestSyntax">acme-api/geolocations?region=MA</div></p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyE-Column1-Body1">
                                                                     <p>string</p>
@@ -281,7 +281,7 @@
                                                                     <p>city</p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyE-Column1-Body2">
-                                                                    <p>Add this parameter to specify the city (by name) for which you want to return geolocations. Here is an example:<br /><div class="ApiRequestSyntax">deployapi/geolocations?city=Boston</div></p>
+                                                                    <p>Add this parameter to specify the city (by name) for which you want to return geolocations. Here is an example:<br /><div class="ApiRequestSyntax">acme-api/geolocations?city=Boston</div></p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyE-Column1-Body2">
                                                                     <p>string</p>
@@ -295,7 +295,7 @@
                                                                     <p>postalcode</p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyB-Column1-Body1">
-                                                                    <p>Add this parameter to specify the postal code for which you want to return geolocations. Here is an example:<br /><div class="ApiRequestSyntax">deployapi/geolocations?postalcode=02109</div></p>
+                                                                    <p>Add this parameter to specify the postal code for which you want to return geolocations. Here is an example:<br /><div class="ApiRequestSyntax">acme-api/geolocations?postalcode=02109</div></p>
                                                                 </td>
                                                                 <td class="TableStyle-BasicAlternateLightBlueRows-BodyB-Column1-Body1">
                                                                     <p>string</p>
@@ -442,7 +442,7 @@
                                                     <h2 class="border"><span class="post">POST</span> a custom geolocation</h2>
                                                     <p>This endpoint enables you to create a custom geolocation.</p>
                                                     <h4 class="request">Request Syntax</h4>
-                                                    <div class="ApiRequestSyntax">POST /deployapi/geolocations</div>
+                                                    <div class="ApiRequestSyntax">POST /acme-api/geolocations</div>
                                                     <h3 class="Api">Body Parameters</h3>
                                                     <table style="mc-table-style: url('../../Resources/TableStyles/BasicAlternateLightBlueRows.css');" class="TableStyle-BasicAlternateLightBlueRows" cellspacing="0">
                                                         <thead>
@@ -613,7 +613,7 @@
                                                     <h2 class="border"><span class="post">POST</span> a custom IP address block</h2>
                                                     <p>This endpoint enables you to create a custom IP&#160;address block within a custom geolocation.</p>
                                                     <h4 class="request">Request Syntax</h4>
-                                                    <div class="ApiRequestSyntax">POST /deployapi/geolocations/{locid}/ipblocks</div>
+                                                    <div class="ApiRequestSyntax">POST /acme-api/geolocations/{locid}/ipblocks</div>
                                                     <h3 class="Api">Query Parameters</h3>
                                                     <table style="mc-table-style: url('../../Resources/TableStyles/BasicAlternateLightBlueRows.css');" class="TableStyle-BasicAlternateLightBlueRows" cellspacing="0">
                                                         <thead>
@@ -735,7 +735,7 @@
                                                     <h2 class="border"><span class="put">PUT</span> an update to a custom geolocation</h2>
                                                     <p>This endpoint enables you to update one of your custom geolocations.</p>
                                                     <h4 class="request">Request Syntax</h4>
-                                                    <div class="ApiRequestSyntax">PUT /deployapi/geolocations/{locid}</div>
+                                                    <div class="ApiRequestSyntax">PUT /acme-api/geolocations/{locid}</div>
                                                     <h3 class="Api">Query Parameters</h3>
                                                     <table style="mc-table-style: url('../../Resources/TableStyles/BasicAlternateLightBlueRows.css');" class="TableStyle-BasicAlternateLightBlueRows" cellspacing="0">
                                                         <thead>
@@ -941,7 +941,7 @@
                                                     <h2 class="border"><span class="put">PUT</span> an update to a custom IP block</h2>
                                                     <p>This endpoint enables you to update one of your custom IP address blocks.</p>
                                                     <h4 class="request">Request Syntax</h4>
-                                                    <div class="ApiRequestSyntax">PUT /deployapi/geolocations/{locid}/ipblocks</div>
+                                                    <div class="ApiRequestSyntax">PUT /acme-api/geolocations/{locid}/ipblocks</div>
                                                     <h3 class="Api">Query Parameters</h3>
                                                     <table style="mc-table-style: url('../../Resources/TableStyles/BasicAlternateLightBlueRows.css');" class="TableStyle-BasicAlternateLightBlueRows" cellspacing="0">
                                                         <thead>
@@ -1068,7 +1068,7 @@
                                                     <h2 class="border"><span class="delete">DELETE</span> a custom geolocation</h2>
                                                     <p>This endpoint enables you to delete one of your custom geolocations.</p>
                                                     <h4 class="request">Request Syntax</h4>
-                                                    <div class="ApiRequestSyntax">DELETE /deployapi/geolocations/{locid}</div>
+                                                    <div class="ApiRequestSyntax">DELETE /acme-api/geolocations/{locid}</div>
                                                     <h3 class="Api">Query Parameters</h3>
                                                     <table style="mc-table-style: url('../../Resources/TableStyles/BasicAlternateLightBlueRows.css');" class="TableStyle-BasicAlternateLightBlueRows" cellspacing="0">
                                                         <thead>
@@ -1137,7 +1137,7 @@
                                                     <p>This endpoint enables you to delete  your custom IP&#160;address blocks from one of your custom geolocations. This deletes every IP&#160;address block in the geolocation you specify. </p>
                                                     <div class="Example" data-mc-autonum="&lt;span style=&quot;color: #005151;&quot; class=&quot;mcFormatColor&quot;&gt;&lt;b&gt;EXAMPLE: &lt;/b&gt;&lt;/span&gt;"><span class="autonumber"><span><span style="color: #005151;" class="mcFormatColor"><b>EXAMPLE: </b></span></span></span>For example, if your specified geolocation has only one IP&#160;address block, it will be deleted. If it has five IP address blocks, all five will be deleted.</div>
                                                     <h4 class="request">Request Syntax</h4>
-                                                    <div class="ApiRequestSyntax">DELETE /deployapi/geolocations/{locid}/ipblocks</div>
+                                                    <div class="ApiRequestSyntax">DELETE /acme-api/geolocations/{locid}/ipblocks</div>
                                                     <h3 class="Api">Query Parameters</h3>
                                                     <table style="mc-table-style: url('../../Resources/TableStyles/BasicAlternateLightBlueRows.css');" class="TableStyle-BasicAlternateLightBlueRows" cellspacing="0">
                                                         <thead>
