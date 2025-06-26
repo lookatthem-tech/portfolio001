@@ -17,8 +17,8 @@ h1
 	font-weight: bold;
 	line-height: 50px;
 	position: relative;
-	color: white;
-	text-shadow: 1px 1px #141f1f;
+	color: black;
+	/* text-shadow: 1px 1px #53c68c; */
 }
 
 h2
@@ -29,9 +29,9 @@ h2
 	font-size: 32px;
 	font-weight: normal;
 	line-height: 30pt;
-	color: white;
+	color: black;
 	position: relative;
-	text-shadow: 1px 1px #141f1f;
+	/* text-shadow: 1px 1px #53c68c; */
 }
 
 div.AboutBoxHome
@@ -66,7 +66,7 @@ div.AboutBoxHome div:hover
 	transform: scale(1.05);
 }
 
-div.AboutBoxHome a	/*Complex Selector: Links within the home tiles will have the following properties*/
+div.AboutBoxHome a	/*Complex Selector: Links within the home tiles will have the following properties */
 {
 	text-decoration: none;
 	color: #000;
@@ -141,14 +141,14 @@ div.home-tiles > div
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	background-color: #fff;
-	border: 1px solid #cccccc;
+	border: 1px solid #c6ecd9;
 	-webkit-border-radius: 7px;
 	-moz-border-radius: 7px;
 	border-radius: 7px;
 	text-align: center;
 	padding: 15px;
 	margin-bottom: 0.5%;
-	box-shadow: 0 16px 22px -12px #03153b;
+	/* box-shadow: 0 16px 22px -12px #03153b; */
 	height: 135px;
 	overflow: hidden;
 }
@@ -177,7 +177,7 @@ div.home-tiles > div:nth-child(3)
 	margin-left: 1%;
 }
 
-/*=Elements for text contained within each home-tile=*/
+/* Elements for text contained within each home-tile */
 
 p.tile-content
 {
@@ -407,7 +407,7 @@ div.topic-hero	/*This is the Hero/Banner on the Home Page - To replace the banne
 div.topic-hero::before
 {
 	content: "";
-	background-image: url('../Assets/HeroImage007.jpg');
+	background-image: url('../Assets/HeroImage002.png');
 	background-size: cover;
 	position: absolute;
 	top: 0px;
