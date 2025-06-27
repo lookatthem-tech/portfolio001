@@ -45,7 +45,7 @@ GET /acme-api/sensors
 
 Copy
 
-```
+```json
 {
   "status": [],
   "data": [
