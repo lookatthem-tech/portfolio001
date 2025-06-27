@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MadCapLog Protocol="2" Description="MadCap Flare 2025 Generated PortfolioSite.fltar" Date="2025-06-26T16:54:47.8575662-04:00">
+<MadCapLog Protocol="2" Description="MadCap Flare 2025 Generated PortfolioSite.fltar" Date="2025-06-27T11:27:29.4233941-04:00">
     <Messages>Compiling target PortfolioSite...
 Removing previously generated content...
 Loading skin info...
@@ -468,7 +468,7 @@ Generated Skins\Default\Stylesheets\Topic.micro-content.css
 Generated Default.htm
 Saving result set...
 Ignored Compiler Warnings: 220
-Output generated in 21 second(s).
+Output generated in 24 second(s).
 
 Done
 Saving log to "N:\Portfolio\Output\ryan_\PortfolioSite\PortfolioSite.mclog"
