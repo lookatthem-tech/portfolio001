@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MadCapLog Protocol="2" Description="MadCap Flare 2025 Generated PortfolioSite.fltar" Date="2025-06-27T11:27:29.4233941-04:00">
+<MadCapLog Protocol="2" Description="MadCap Flare 2025 Generated PortfolioSite.fltar" Date="2025-08-01T14:59:57.6648057-04:00">
     <Messages>Compiling target PortfolioSite...
 Removing previously generated content...
 Loading skin info...
@@ -91,7 +91,6 @@ Missing linked source file: N:\Portfolio\Content\Topics\Tools\WebBrowsers.html
 Applying template page ArticleMasterPage.flmsp...
 Generated Topics\Software\UnifyApplications.htm
 Processing topic: Topics\Software\GettingPFD.html...
-Missing snippet file: N:\Portfolio\Content\Resources\Snippets\GettingPrysmIntro.flsnp
 Missing linked source file: N:\Portfolio\Content\Topics\Share\SharingYourDesktop.htm
 Missing linked source file: N:\Portfolio\Content\Topics\Software\SigningInToPrysm.html
 Applying template page ArticleMasterPage.flmsp...
@@ -468,7 +467,7 @@ Generated Skins\Default\Stylesheets\Topic.micro-content.css
 Generated Default.htm
 Saving result set...
 Ignored Compiler Warnings: 220
-Output generated in 24 second(s).
+Output generated in 30 second(s).
 
 Done
 Saving log to "N:\Portfolio\Output\ryan_\PortfolioSite\PortfolioSite.mclog"
@@ -511,7 +510,6 @@ Saving log to "N:\Portfolio\Output\ryan_\PortfolioSite\PortfolioSite.mclog"
         <LogEntry File="../../../Content/Topics/Software/UnifyApplications.htm" Message="Missing linked source file: N:\Portfolio\Content\Topics\Share\SharingYourDesktop.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="PortfolioSite" ErrorID="10001" />
         <LogEntry File="../../../Content/Topics/Software/UnifyApplications.htm" Message="Missing linked source file: N:\Portfolio\Content\Topics\Tools\Annotating.html&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="PortfolioSite" ErrorID="10001" />
         <LogEntry File="../../../Content/Topics/Software/UnifyApplications.htm" Message="Missing linked source file: N:\Portfolio\Content\Topics\Tools\WebBrowsers.html&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="PortfolioSite" ErrorID="10001" />
-        <LogEntry File="../../../Content/Topics/Software/GettingPFD.html" Message="Missing snippet file: N:\Portfolio\Content\Resources\Snippets\GettingPrysmIntro.flsnp&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="PortfolioSite" ErrorID="10055" />
         <LogEntry File="../../../Content/Topics/Software/GettingPFD.html" Message="Missing linked source file: N:\Portfolio\Content\Topics\Share\SharingYourDesktop.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="PortfolioSite" ErrorID="10001" />
         <LogEntry File="../../../Content/Topics/Software/GettingPFD.html" Message="Missing linked source file: N:\Portfolio\Content\Topics\Software\SigningInToPrysm.html&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="PortfolioSite" ErrorID="10001" />
         <LogEntry File="../../../Content/Topics/Software/UsingPFSH.html" Message="Missing linked source file: N:\Portfolio\Content\Topics\Software\GettingPFSH.html&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="PortfolioSite" ErrorID="10001" />
